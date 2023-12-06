@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!--HEADER TEMPORÁRIO-->
+    <header>Cabeçalho</header>
+    <main>
+        <div class="page-title">
+            Seu Carrinho
+        </div>
+        <div class="content">
+            <section>
+                <div class="title">
+                    <h1>Carrinho</h1>
+                </div>
+                <table> <!--Listagem de produtos-->
+                    <thead>
+                        <tr> <!--Cabeçalho dos produtos-->
+                            <th>Produto/Serviço</th>
+                            <th>Quantidade</th>
+                            <th>Preço</th>
+                            <th>Total</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+
+                    <tbody> <!--Conteudo dos produtos-->
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="https://picsum.photos/200" alt="">
+                                    <div class="info">
+                                        <div class="name">Nome do Produto</div>
+                                        <div class="vendedor">Nome do Vendedor</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="qtd">
+                                    <button><i class='bx bx-minus'></i></button>
+                                    <span class="maincolor">2</span>
+                                    <button><i class='bx bx-plus'></i></button>
+                                </div>
+                            </td>
+                            <td class="maincolor">R$ 10,00</td>
+                            <td class="maincolor">R$ 20,00</td>
+                            <td><button class="remove"><i class='bx bx-trash'></i></i></button></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="http://lorempixel.com.br/200/200/?1" alt="">
+                                    <div class="info">
+                                        <div class="name">Nome do Produto</div>
+                                        <div class="vendedor">Nome do Vendedor</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="qtd">
+                                    <button><i class='bx bx-minus'></i></button>
+                                    <span class="maincolor">2</span>
+                                    <button><i class='bx bx-plus'></i></button>
+                                </div>
+                            </td>
+                            <td class="maincolor">R$ 10,00</td>
+                            <td class="maincolor">R$ 20,00</td>
+                            <td><button class="remove"><i class='bx bx-trash'></i></i></button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <aside>
+                <div class="box">
+                    <div class="title">
+                        <h1>Resumo da Compra:</h1>
+                    </div>
+                    <div class="box-resumo">
+                        <div class="resumo-info maincolor">
+                            <div><span>Itens:</span><span>2</span></div>
+                            <div><span>Total:</span><span>R$ 20,00</span></div>
+                        </div>
+                        <button>Comprar</button>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+</body>
+</html>
